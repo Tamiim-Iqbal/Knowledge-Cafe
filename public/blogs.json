@@ -1,0 +1,42 @@
+[
+    {
+      "Id": "101",
+      "cover": "../resources/images/1.jpg",
+      "title": "Mastering JavaScript: A Guide for Beginners",
+      "author_img": "../resources/images/boy1.png",
+      "author": "Name",
+      "posted_date": "June 10, 2024",
+      "reading_time": 6,
+      "hashtags": ["JavaScript", "Programming", "WebDevelopment"]
+    },
+    {
+      "Id": "102",
+      "cover": "../resources/images/2.png",
+      "title": "Understanding the DOM: A Complete Guide",
+      "author_img": "../resources/images/girl1.jpg",
+      "author": "Name",
+      "posted_date": "July 22, 2024",
+      "reading_time": 2,
+      "hashtags": ["DOM", "JavaScript", "Frontend"]
+    },
+    {
+      "Id": "103",
+      "cover": "../resources/images/3.png",
+      "title": "API Integration: Best Practices for Developers",
+      "author_img": "../resources/images/girl2.jpg",
+      "author": "Name",
+      "posted_date": "August 5, 2024",
+      "reading_time": 3,
+      "hashtags": ["API", "Backend", "Development"]
+    },
+    {
+      "Id": "104",
+      "cover": "../resources/images/4.jpg",
+      "title": "A Deep Dive into Python Data Structures",
+      "author_img": "../resources/images/boy2.png",
+      "author": "Name",
+      "posted_date": "September 14, 2024",
+      "reading_time": 5,
+      "hashtags": ["Python", "DataStructures", "Coding"]
+    }
+]
