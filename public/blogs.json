@@ -1,9 +1,9 @@
 [
     {
       "id": "101",
-      "cover": "../src/assets/images/1.jpg",
+      "cover": "src/assets/images/1.jpg",
       "title": "Mastering JavaScript: A Guide for Beginners",
-      "author_img": "../src/assets/images/boy1.png",
+      "author_img": "src/assets/images/boy1.png",
       "author": "Tamim",
       "posted_date": "June 10, 2024",
       "reading_time": 6,
@@ -11,9 +11,9 @@
     },
     {
       "id": "102",
-      "cover": "../src/assets/images/2.png",
+      "cover": "src/assets/images/2.png",
       "title": "Understanding the DOM: A Complete Guide",
-      "author_img": "../src/assets/images/girl1.jpg",
+      "author_img": "src/assets/images/girl1.jpg",
       "author": "Urmi",
       "posted_date": "July 22, 2024",
       "reading_time": 2,
@@ -21,9 +21,9 @@
     },
     {
       "id": "103",
-      "cover": "../src/assets/images/3.png",
+      "cover": "src/assets/images/3.png",
       "title": "API Integration: Best Practices for Developers",
-      "author_img": "../src/assets/images/girl2.jpg",
+      "author_img": "src/assets/images/girl2.jpg",
       "author": "Sadia",
       "posted_date": "August 5, 2024",
       "reading_time": 3,
@@ -31,9 +31,9 @@
     },
     {
       "id": "104",
-      "cover": "../src/assets/images/4.jpg",
+      "cover": "src/assets/images/4.jpg",
       "title": "A Deep Dive into Free Resources",
-      "author_img": "../src/assets/images/boy2.png",
+      "author_img": "src/assets/images/boy2.png",
       "author": "Iqbal",
       "posted_date": "September 14, 2024",
       "reading_time": 5,
