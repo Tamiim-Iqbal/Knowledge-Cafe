@@ -3,10 +3,10 @@ import { BsBookmark} from "react-icons/bs";
 
 const Blog = ({blog, handleAddBookmark, handleMarkRead}) => {
     // console.log(blog);
-    const {title, cover, author_img, author, posted_date, reading_time, hashtags } = blog;
+    const {id, title, cover, author_img, author, posted_date, reading_time, hashtags } = blog;
 
     return (
-        <div className='w-5/6 mb-5 pb-5 border-b-2'>
+        <div className='w-11/12 mb-5 pb-5 border-b-2'>
             <h2 className='text-2xl font-medium mb-2'>{title}</h2>
             <img className='rounded-md mb-5' src={cover} alt="" />  
             <div className='flex justify-between items-center mb-2'>
@@ -30,7 +30,7 @@ const Blog = ({blog, handleAddBookmark, handleMarkRead}) => {
                     ))}
             </div> */}
              <p className="mb-1 text-gray-600">#{hashtags.join("   #")}</p>
-            <button onClick={() => handleMarkRead(reading_time)} className='underline text-blue-500 hover:text-red-500' href="">Mark as read</button>
+            <button onClick={() => handleMarkRead(id, reading_time)} className='underline text-blue-500 hover:text-red-500' href="">Mark as read</button>
         </div>
     );
 };
